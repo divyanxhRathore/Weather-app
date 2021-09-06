@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app-input</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>Weather app</h3>
+        </header>
+
+        <h2 id="message">
+            <!-- use this to display any error message occured -->
+        </h2>
+        <!-- use target to open the page in new tab -->
+        <form action="./report.html" method="GET" target="_blank">
+            <input type="text" placeholder="Enter city name" id="cityName" name="city">
+
+            <button type="submit" id="btn" value="Submit">Get weather report</button>
+        </form>
+    </div>
+</body>
+
+<script src="app.js"></script>
+</html>

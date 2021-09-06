@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    color: #2ecc71;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.container{
+    padding: 30px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 45px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    color: #95a5a6;
+}
+
+button{
+    margin-top: 10px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ff7675;
+    color: #d63031;
+    border-radius: 20px;
+    /* make sure to add display as none */
+    display: none;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+    color: #95a5a6;
+    margin-top: 10px;
+}
+
+footer{
+    padding: 10px;
+    border-top: 1px solid #2c3e50;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feels_like{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    font-size: 14px;
+    color: #95a5a6;
+}
+
+.wind_speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wind_speed img{
+    margin-top: 15px;
+    max-height: 48px;
+    max-width: 48px;
+}
